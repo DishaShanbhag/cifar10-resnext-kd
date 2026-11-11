@@ -1,0 +1,109 @@
+{
+ "teachers": [
+  {
+   "run": "final_resnext29_5M_asam_cosine_slasd_v1",
+   "T": 0.578,
+   "val NLL raw": 0.145,
+   "val NLL calibrated": 0.0784,
+   "val acc": 0.9772,
+   "internal test acc": 0.976,
+   "weight": 0.125
+  },
+  {
+   "run": "kd_ens_w64-128-256_b443_sam_v1",
+   "T": 0.565,
+   "val NLL raw": 0.1982,
+   "val NLL calibrated": 0.0905,
+   "val acc": 0.9776,
+   "internal test acc": 0.9732,
+   "weight": 0.125
+  },
+  {
+   "run": "kd_resnet+resnext_to_resnext29_4x24d_v1",
+   "T": 0.515,
+   "val NLL raw": 0.2222,
+   "val NLL calibrated": 0.0794,
+   "val acc": 0.9776,
+   "internal test acc": 0.974,
+   "weight": 0.125
+  },
+  {
+   "run": "kd_student_resnext29_slasd_400ep_v2",
+   "T": 0.836,
+   "val NLL raw": 0.0648,
+   "val NLL calibrated": 0.0615,
+   "val acc": 0.9792,
+   "internal test acc": 0.9808,
+   "weight": 0.125
+  },
+  {
+   "run": "resnet_w64-128-256_b443_ta_ema_cutmix_sam_v1",
+   "T": 0.527,
+   "val NLL raw": 0.2104,
+   "val NLL calibrated": 0.0777,
+   "val acc": 0.9784,
+   "internal test acc": 0.9732,
+   "weight": 0.125
+  },
+  {
+   "run": "resnext29_4x24d_ta_ema_cutmix_sam_v1",
+   "T": 0.515,
+   "val NLL raw": 0.2246,
+   "val NLL calibrated": 0.0878,
+   "val acc": 0.9776,
+   "internal test acc": 0.9732,
+   "weight": 0.125
+  },
+  {
+   "run": "resnext29_slasd_plainCE_beta1_resizemix_v1_teacher",
+   "T": 0.711,
+   "val NLL raw": 0.0878,
+   "val NLL calibrated": 0.0739,
+   "val acc": 0.9756,
+   "internal test acc": 0.9752,
+   "weight": 0.125
+  },
+  {
+   "run": "supcon_wrn22_5M_350ep_v1",
+   "T": 11.354,
+   "val NLL raw": 0.8004,
+   "val NLL calibrated": 0.1165,
+   "val acc": 0.9764,
+   "internal test acc": 0.9692,
+   "weight": 0.125
+  }
+ ],
+ "selected": [
+  "final_resnext29_5M_asam_cosine_slasd_v1",
+  "kd_ens_w64-128-256_b443_sam_v1",
+  "kd_resnet+resnext_to_resnext29_4x24d_v1",
+  "kd_student_resnext29_slasd_400ep_v2",
+  "resnet_w64-128-256_b443_ta_ema_cutmix_sam_v1",
+  "resnext29_4x24d_ta_ema_cutmix_sam_v1",
+  "resnext29_slasd_plainCE_beta1_resizemix_v1_teacher",
+  "supcon_wrn22_5M_350ep_v1"
+ ],
+ "weights": [
+  0.125,
+  0.125,
+  0.125,
+  0.125,
+  0.125,
+  0.125,
+  0.125,
+  0.125
+ ],
+ "temperatures": [
+  0.5779692530632019,
+  0.5647805333137512,
+  0.5149670839309692,
+  0.8361915349960327,
+  0.5269926190376282,
+  0.5149670839309692,
+  0.7114269733428955,
+  11.353711128234863
+ ],
+ "ensemble_T": 0.8048086762428284,
+ "ens_val_acc": 0.9791999459266663,
+ "ens_internal_test_acc": 0.9791999459266663
+}

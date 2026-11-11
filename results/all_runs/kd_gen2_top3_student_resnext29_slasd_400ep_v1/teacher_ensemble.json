@@ -1,0 +1,49 @@
+{
+ "teachers": [
+  {
+   "run": "final_resnext29_5M_asam_cosine_slasd_v1",
+   "T": 0.578,
+   "val NLL raw": 0.145,
+   "val NLL calibrated": 0.0784,
+   "val acc": 0.9772,
+   "internal test acc": 0.976,
+   "weight": 0.333
+  },
+  {
+   "run": "kd_student_resnext29_slasd_400ep_v2",
+   "T": 0.836,
+   "val NLL raw": 0.0648,
+   "val NLL calibrated": 0.0615,
+   "val acc": 0.9792,
+   "internal test acc": 0.9808,
+   "weight": 0.333
+  },
+  {
+   "run": "resnext29_slasd_plainCE_beta1_resizemix_v1_teacher",
+   "T": 0.711,
+   "val NLL raw": 0.0878,
+   "val NLL calibrated": 0.0739,
+   "val acc": 0.9756,
+   "internal test acc": 0.9752,
+   "weight": 0.333
+  }
+ ],
+ "selected": [
+  "final_resnext29_5M_asam_cosine_slasd_v1",
+  "kd_student_resnext29_slasd_400ep_v2",
+  "resnext29_slasd_plainCE_beta1_resizemix_v1_teacher"
+ ],
+ "weights": [
+  0.3333333333333333,
+  0.3333333333333333,
+  0.3333333333333333
+ ],
+ "temperatures": [
+  0.5779692530632019,
+  0.8361915349960327,
+  0.7114269733428955
+ ],
+ "ensemble_T": 0.886562705039978,
+ "ens_val_acc": 0.9787999987602234,
+ "ens_internal_test_acc": 0.9791999459266663
+}

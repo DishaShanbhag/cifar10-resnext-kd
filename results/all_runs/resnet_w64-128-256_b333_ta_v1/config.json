@@ -1,0 +1,42 @@
+{
+ "RUN_NAME": "resnet_w64-128-256_b333_ta_v1",
+ "KAGGLE_COMPETITION": "cifar-10-res-net-architecture-challenge-dl",
+ "DRIVE_PROJECT_DIR": "cifar10_resnet_challenge",
+ "LOCAL_DATA_DIR": null,
+ "SPLIT_SEED": 42,
+ "VAL_FRAC": 0.05,
+ "TEST_FRAC": 0.05,
+ "WIDTHS": [
+  64,
+  128,
+  256
+ ],
+ "BLOCKS": [
+  3,
+  3,
+  3
+ ],
+ "DROPOUT": 0.0,
+ "PARAM_LIMIT": 5000000,
+ "SEED": 0,
+ "EPOCHS": 300,
+ "BATCH_SIZE": 256,
+ "MAX_LR": 0.2,
+ "MOMENTUM": 0.9,
+ "WEIGHT_DECAY": 0.0005,
+ "LABEL_SMOOTHING": 0.1,
+ "PCT_WARMUP": 0.25,
+ "EARLY_STOP_PATIENCE": null,
+ "MAX_EPOCHS_THIS_SESSION": null,
+ "AUGMENT": true,
+ "CUTOUT": 8,
+ "TTA_FLIP": true,
+ "TRIVIAL_AUG": true,
+ "TA_GROUP": 16,
+ "GRAYSCALE_P": 0.1,
+ "USE_BF16": true,
+ "n_params": 4327754,
+ "n_train": 45000,
+ "n_val": 2500,
+ "n_test_internal": 2500
+}

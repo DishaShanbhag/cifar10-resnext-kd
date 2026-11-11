@@ -1,0 +1,25 @@
+{
+ "teachers": [
+  {
+   "run": "teacher_sewrn28_10_sla250_v1",
+   "T": 0.96,
+   "val NLL raw": 0.0497,
+   "val NLL calibrated": 0.0495,
+   "val acc": 0.988,
+   "internal test acc": 0.984,
+   "weight": 1.0
+  }
+ ],
+ "selected": [
+  "teacher_sewrn28_10_sla250_v1"
+ ],
+ "weights": [
+  1.0
+ ],
+ "temperatures": [
+  0.9604088068008423
+ ],
+ "ensemble_T": 0.957906186580658,
+ "ens_val_acc": 0.9879999756813049,
+ "ens_internal_test_acc": 0.9839999675750732
+}

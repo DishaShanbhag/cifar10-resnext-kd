@@ -1,0 +1,7 @@
+epoch 25: internal test 0.7968 | val ema 0.8048 (val is training data)
+epoch 50: internal test 0.9276 | val ema 0.9332 (val is training data)
+epoch 75: internal test 0.9448 | val ema 0.9512 (val is training data)
+epoch 100: internal test 0.9512 | val ema 0.9580 (val is training data)
+epoch 125: internal test 0.9552 | val ema 0.9596 (val is training data)
+epoch 150: internal test 0.9588 | val ema 0.9644 (val is training data)
+epoch 175: internal test 0.9624 | val ema 0.9692 (val is training data)

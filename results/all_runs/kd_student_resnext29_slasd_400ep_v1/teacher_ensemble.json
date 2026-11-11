@@ -1,0 +1,90 @@
+{
+ "teachers": [
+  {
+   "run": "final_resnext29_5M_asam_cosine_slasd_v1",
+   "T": 0.575,
+   "val NLL raw": 0.145,
+   "val NLL calibrated": 0.0785,
+   "val acc": 0.9772,
+   "internal test acc": 0.976,
+   "weight": 0.5
+  },
+  {
+   "run": "final_resnext29_5M_asam_cosine_v1",
+   "T": 0.521,
+   "val NLL raw": 0.2226,
+   "val NLL calibrated": 0.0867,
+   "val acc": 0.9736,
+   "internal test acc": 0.974,
+   "weight": 0.0
+  },
+  {
+   "run": "kd_ens_w64-128-256_b443_sam_v1",
+   "T": 0.575,
+   "val NLL raw": 0.1982,
+   "val NLL calibrated": 0.0905,
+   "val acc": 0.9776,
+   "internal test acc": 0.9732,
+   "weight": 0.0
+  },
+  {
+   "run": "kd_resnet+resnext_to_resnext29_4x24d_v1",
+   "T": 0.506,
+   "val NLL raw": 0.2222,
+   "val NLL calibrated": 0.0794,
+   "val acc": 0.9776,
+   "internal test acc": 0.974,
+   "weight": 0.0
+  },
+  {
+   "run": "resnet_w64-128-256_b333_ta_ema_cutmix_v1",
+   "T": 0.575,
+   "val NLL raw": 0.2189,
+   "val NLL calibrated": 0.1015,
+   "val acc": 0.9744,
+   "internal test acc": 0.97,
+   "weight": 0.0
+  },
+  {
+   "run": "resnet_w64-128-256_b333_ta_v1",
+   "T": 0.662,
+   "val NLL raw": 0.1847,
+   "val NLL calibrated": 0.1233,
+   "val acc": 0.9724,
+   "internal test acc": 0.9672,
+   "weight": 0.0
+  },
+  {
+   "run": "resnet_w64-128-256_b443_ta_ema_cutmix_sam_v1",
+   "T": 0.528,
+   "val NLL raw": 0.2104,
+   "val NLL calibrated": 0.0777,
+   "val acc": 0.9784,
+   "internal test acc": 0.9732,
+   "weight": 0.5
+  },
+  {
+   "run": "resnext29_4x24d_ta_ema_cutmix_sam_v1",
+   "T": 0.521,
+   "val NLL raw": 0.2246,
+   "val NLL calibrated": 0.0878,
+   "val acc": 0.9776,
+   "internal test acc": 0.9732,
+   "weight": 0.0
+  }
+ ],
+ "selected": [
+  "final_resnext29_5M_asam_cosine_slasd_v1",
+  "resnet_w64-128-256_b443_ta_ema_cutmix_sam_v1"
+ ],
+ "weights": [
+  0.5,
+  0.5
+ ],
+ "temperatures": [
+  0.5748554468154907,
+  0.5281034111976624
+ ],
+ "ens_val_acc": 0.9779999852180481,
+ "ens_internal_test_acc": 0.9763999581336975
+}

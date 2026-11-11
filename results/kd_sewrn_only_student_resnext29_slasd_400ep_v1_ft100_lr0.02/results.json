@@ -1,0 +1,79 @@
+{
+ "run": "kd_sewrn_only_student_resnext29_slasd_400ep_v1_ft100_lr0.02",
+ "best_epoch": 77,
+ "n_params": 4998738,
+ "val": {
+  "split": "VALIDATION",
+  "n": 2500,
+  "accuracy": 0.9879999756813049,
+  "macro_recall": 0.9880000352859497,
+  "min_class_recall": 0.9679999947547913,
+  "min_class": "dog",
+  "mean_recall_weakest3": 0.9746666550636292,
+  "recall_std": 0.010276183485984802,
+  "recall_range": 0.03200000524520874,
+  "errors": 30
+ },
+ "internal_test": {
+  "split": "INTERNAL TEST",
+  "n": 2500,
+  "accuracy": 0.9827999472618103,
+  "macro_recall": 0.9828000068664551,
+  "min_class_recall": 0.9639999866485596,
+  "min_class": "bird",
+  "mean_recall_weakest3": 0.9679999351501465,
+  "recall_std": 0.01213918998837471,
+  "recall_range": 0.03600001335144043,
+  "errors": 43
+ },
+ "internal_test_per_class": {
+  "recall": {
+   "airplane": 0.9879999756813049,
+   "automobile": 0.984000027179718,
+   "bird": 0.9639999866485596,
+   "cat": 0.972000002861023,
+   "deer": 0.9919999837875366,
+   "dog": 0.9679999947547913,
+   "frog": 0.9919999837875366,
+   "horse": 0.972000002861023,
+   "ship": 0.9959999918937683,
+   "truck": 1.0
+  },
+  "errors": {
+   "airplane": 3,
+   "automobile": 4,
+   "bird": 9,
+   "cat": 7,
+   "deer": 2,
+   "dog": 8,
+   "frog": 2,
+   "horse": 7,
+   "ship": 1,
+   "truck": 0
+  },
+  "mean p(true)": {
+   "airplane": 0.9714000225067139,
+   "automobile": 0.9664000272750854,
+   "bird": 0.9539999961853027,
+   "cat": 0.9480000138282776,
+   "deer": 0.9721999764442444,
+   "dog": 0.9408000111579895,
+   "frog": 0.9789000153541565,
+   "horse": 0.9643999934196472,
+   "ship": 0.9847000241279602,
+   "truck": 0.9861000180244446
+  },
+  "mean NLL": {
+   "airplane": 0.0502999983727932,
+   "automobile": 0.056299999356269836,
+   "bird": 0.07530000060796738,
+   "cat": 0.07419999688863754,
+   "deer": 0.04360000044107437,
+   "dog": 0.10409999638795853,
+   "frog": 0.031300000846385956,
+   "horse": 0.07069999724626541,
+   "ship": 0.020999999716877937,
+   "truck": 0.01549999974668026
+  }
+ }
+}

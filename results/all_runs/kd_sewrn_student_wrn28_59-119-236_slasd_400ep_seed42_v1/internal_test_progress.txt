@@ -1,0 +1,16 @@
+epoch 25: internal test 0.9088 | val ema 0.9104
+epoch 50: internal test 0.9352 | val ema 0.9364
+epoch 75: internal test 0.9484 | val ema 0.9464
+epoch 100: internal test 0.9532 | val ema 0.9528
+epoch 125: internal test 0.9592 | val ema 0.9572
+epoch 150: internal test 0.9568 | val ema 0.9604
+epoch 175: internal test 0.9624 | val ema 0.9648
+epoch 200: internal test 0.9632 | val ema 0.9712
+epoch 225: internal test 0.9660 | val ema 0.9720
+epoch 250: internal test 0.9676 | val ema 0.9736
+epoch 275: internal test 0.9692 | val ema 0.9756
+epoch 300: internal test 0.9724 | val ema 0.9772
+epoch 325: internal test 0.9736 | val ema 0.9776
+epoch 350: internal test 0.9780 | val ema 0.9784
+epoch 375: internal test 0.9804 | val ema 0.9812
+epoch 400: internal test 0.9824 | val ema 0.9812

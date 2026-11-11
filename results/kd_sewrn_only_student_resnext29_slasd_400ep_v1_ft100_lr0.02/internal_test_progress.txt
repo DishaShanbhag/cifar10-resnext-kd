@@ -1,0 +1,10 @@
+epoch 10: internal test 0.9800 | val ema 0.9804 | start: test 0.9812 val 0.9852
+epoch 20: internal test 0.9800 | val ema 0.9804 | start: test 0.9812 val 0.9852
+epoch 30: internal test 0.9812 | val ema 0.9824 | start: test 0.9812 val 0.9852
+epoch 40: internal test 0.9788 | val ema 0.9820 | start: test 0.9812 val 0.9852
+epoch 50: internal test 0.9808 | val ema 0.9832 | start: test 0.9812 val 0.9852
+epoch 60: internal test 0.9812 | val ema 0.9828 | start: test 0.9812 val 0.9852
+epoch 70: internal test 0.9820 | val ema 0.9840 | start: test 0.9812 val 0.9852
+epoch 80: internal test 0.9820 | val ema 0.9840 | start: test 0.9812 val 0.9852
+epoch 90: internal test 0.9824 | val ema 0.9848 | start: test 0.9812 val 0.9852
+epoch 100: internal test 0.9824 | val ema 0.9844 | start: test 0.9812 val 0.9852

@@ -1,0 +1,79 @@
+{
+ "run": "kd_sewrn_only_student_resnext29_slasd_400ep_trainval_v1",
+ "best_epoch": 400,
+ "n_params": 4998738,
+ "val": {
+  "split": "VALIDATION",
+  "n": 2500,
+  "accuracy": 0.9919999837875366,
+  "macro_recall": 0.9919999241828918,
+  "min_class_recall": 0.972000002861023,
+  "min_class": "dog",
+  "mean_recall_weakest3": 0.981333315372467,
+  "recall_std": 0.008763556368649006,
+  "recall_range": 0.02799999713897705,
+  "errors": 20
+ },
+ "internal_test": {
+  "split": "INTERNAL TEST",
+  "n": 2500,
+  "accuracy": 0.983199954032898,
+  "macro_recall": 0.983199954032898,
+  "min_class_recall": 0.9679999947547913,
+  "min_class": "bird",
+  "mean_recall_weakest3": 0.9706667065620422,
+  "recall_std": 0.01008761115372181,
+  "recall_range": 0.03200000524520874,
+  "errors": 42
+ },
+ "internal_test_per_class": {
+  "recall": {
+   "airplane": 0.9879999756813049,
+   "automobile": 0.9879999756813049,
+   "bird": 0.9679999947547913,
+   "cat": 0.972000002861023,
+   "deer": 0.9800000190734863,
+   "dog": 0.972000002861023,
+   "frog": 0.9879999756813049,
+   "horse": 0.9800000190734863,
+   "ship": 0.9959999918937683,
+   "truck": 1.0
+  },
+  "errors": {
+   "airplane": 3,
+   "automobile": 3,
+   "bird": 8,
+   "cat": 7,
+   "deer": 5,
+   "dog": 7,
+   "frog": 3,
+   "horse": 5,
+   "ship": 1,
+   "truck": 0
+  },
+  "mean p(true)": {
+   "airplane": 0.9699000120162964,
+   "automobile": 0.9664999842643738,
+   "bird": 0.945900022983551,
+   "cat": 0.9424999952316284,
+   "deer": 0.9671000242233276,
+   "dog": 0.9442999958992004,
+   "frog": 0.9794999957084656,
+   "horse": 0.963699996471405,
+   "ship": 0.9830999970436096,
+   "truck": 0.9842000007629395
+  },
+  "mean NLL": {
+   "airplane": 0.04809999838471413,
+   "automobile": 0.04960000142455101,
+   "bird": 0.09730000048875809,
+   "cat": 0.08699999749660492,
+   "deer": 0.05139999836683273,
+   "dog": 0.09430000185966492,
+   "frog": 0.02979999966919422,
+   "horse": 0.06530000269412994,
+   "ship": 0.020400000736117363,
+   "truck": 0.017500000074505806
+  }
+ }
+}
