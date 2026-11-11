@@ -174,6 +174,5 @@ Tried, not in the final model: AugMix (Hendrycks et al. 2020), Shake-Shake (Gast
 SupCon (Khosla et al. 2020), ResizeMix (Qin et al. 2020), Dirichlet calibration (Kull et al. 2019),
 SWA (Izmailov et al. 2018), REPAIR (Jordan et al. 2022), RegMixup (Pinto et al. 2022).
 
-Code: all code in this repository was written for this project, with help from Claude (Anthropic), which
-the course allowed. Library implementations used: PyTorch, torchvision (`TrivialAugmentWide`),
-scikit-learn (stratified split), `torchsummary`.
+Code: all code in this repository was written for this project. Library implementations used: PyTorch,
+torchvision (`TrivialAugmentWide`), scikit-learn (stratified split), `torchsummary`.
